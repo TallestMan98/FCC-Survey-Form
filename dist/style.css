@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+html {
+  font-family: Poppins, sans-serif;
+}
+body{
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0;
+  padding-bottom: 8rem;
+  padding-top: 2rem;
+  background-image: linear-gradient(
+      115deg,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)),
+      url('https://images.pexels.com/photos/1525043/pexels-photo-1525043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  width: 100%;
+  margin: 1rem auto 0 auto;
+}
+@media (min-width: 100px) {
+  .container {
+    max-width: 750px;
+  }
+}
+header {
+  line-height: 1.2;
+  font-size: 1.1rem;
+  display: grid;
+  justify-items: center;
+}
+h1{
+  font-size: 2rem;
+  text-decoration: underline;
+}
+form {
+  background: rgba(40, 40, 100, 0.7);
+  font-size: 1.1rem;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: auto 33% auto 33%;
+  padding-left: 2%;
+  border-radius: 1%;
+}
+p{
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.6rem;
+}
+input, button, select, textarea {
+  margin-top: 0.5%;
+  font-family: inherit;
+  font-size: 0.9rem;
+  line-height: inherit;
+  border-radius: 0.2rem;
+  border: none;
+  background: white;
+  display: block;
+}
+#name, #email, #number, textarea {
+  width: 91.5%;
+  padding: 0.4rem;
+  margin-bottom: 2%;
+}
+select {
+  padding: 0.4rem;
+  margin-bottom: 2%;
+  width: 93.5%;
+}
+input[name="improve"], input[name="recommend"]{
+  display: inline;
+  transform: scale(1.2);
+  width: 1.5rem;
+}
+textarea{
+  height: 6rem;
+}
+button {
+  border: none;
+  display: block;
+  width: 50%;
+  padding: 0.75rem;
+  background: #0dd;
+  cursor: pointer;
+  margin: auto;
+}
